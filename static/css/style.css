@@ -1,0 +1,29 @@
+
+
+body{
+    background-color: rgb(254, 250, 250);
+}
+
+.quadro{
+    height: 242px;
+  width: 240px;
+  background-color: transparent;
+  margin: 1%;
+  border-radius: 10px;
+  border-color: black;
+  border-style: outset;
+  color: rgba(248, 248, 248, 0.61);
+}
+img{
+    height: 70%;
+    width:225px;
+    margin-left: 8px;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+.paragrafo{
+    margin-left: 20%;
+    color: black;
+
+}
+

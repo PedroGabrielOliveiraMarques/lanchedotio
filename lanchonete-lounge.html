@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= {{link}}> 
+    <title>café & lounge</title>
+    
+</head>
+<body>
+   
+    
+    {%block content %}
+    <!--<input type="checkbox" id="slin">
+    <label for="slin">=</label>
+<nav>
+    <ul>
+        <li>carrinho</li>
+        <li>morango</li>
+        <li>melancia</li>
+        <li>laranja</li>
+
+    </ul>
+</nav>!-->
+     <div id="titulo"><p   >café & lounge </p></div>
+</div>
+    
+   
+<!--<img id="pai" src="pexels-pixabay-247676.jpg" alt="">!-->
+        
+             
+         
+    <p style="clear: both;" id="ll">lanchonete</p>
+     
+    
+     
+   <div class="cardapio">
+
+
+
+         <div  class="quadro" style="float: left";>
+        
+              <a href="lanches.html" rel="prev"><img src="pexels-rajesh-tp-1600711.jpg" ></a>
+              <p class="paragrafo"> lanches</p>
+         </div>  <!-- hoje eu consegui colocar uma div do lado da outra, eu estava  tentando colocar <p> mas eu tinha 
+            que colocar <div> e o comando float que signica flutuar eu estava cometendo um erro por conta
+                 de estar colocando um paragrafo e não uma div float e sua direção ex: left, right etc. 
+              eu tinha que colocar na div de cima para flutuar uma do lado da outra se eu colocar na div de baixo ela só 
+              vai flutuar para direira no caso "right". !-->
+      
+
+     <div class="quadro"  style ="float: left";>
+         
+        <a href={{paes}} rel="prev"><img src={{img1}}  ></a>
+        <p class="paragrafo">lanches</p>
+     </div>
+
+
+    <div class="quadro" style ="float: left";>
+        
+        <a href="refrigerantes.html" rel="prev"><img src={{img2}} ></a>
+        <p class="paragrafo">refrigerantes</p> 
+
+    </div>
+
+    <div class="quadro" style = "float:left";>
+       
+        <a href="bebidas alcolicas.html" rel="prev"><img src={{img3}} ></a>
+         <p class="paragrafo">bebidas alcolicas</p>
+    </div>
+    
+    <header class="quadro" style="float: left";>
+       
+        <a href="sucos.html" rel="prev"><img src="cardapiosuco.jpg" ></a>
+         <p class="paragrafo">sucos</p>
+    </div>
+
+    <div class="quadro" style="float: left";>
+        
+        <a href="milkshake.html" rel="prev"><img src="milkshake.png" >o</a>
+        <p class="paragrafo">milkshake</p>
+    </div>
+
+    <div  class="quadro" style="float: left" ; >
+        
+        <a href="porçoesdebatatas.html"><img src="batatas-origem-tipos-e-utilidades-que-vao-alem-da-alimentacao-23.jpg" alt=""></a>
+        <p class="paragrafo">porçoes de batatas</p>
+    </div>
+
+<div class="quadro" style="float: left"; >
+
+</div>
+
+<div class="quadro" style="float: left"; >
+
+</div  >
+
+<div class="quadro" style="float: left";>
+
+</div>
+
+</div>
+
+    <script>
+        //var n1 = Number.parseFloat(window.prompt('digite um numero:'))
+        //var n2 = Number.parseFloat(window.prompt('digite o segundo numero:'))
+        //var s = n1 + n2     
+        //window.alert('esse é o esultado da soma:'+ s)
+    </script>
+   {% endblock content %}
+</body>
+<footer>l</footer>
