@@ -1,6 +1,6 @@
 from flask import Flask, render_template,request,redirect,flash,url_for
 import json
-from Kivy.pp import loginform
+from validaçao.pp import LoginForm
 from pathlib import Path
 import os
 
@@ -10,8 +10,8 @@ app.config['SECRET_KEY']="palavra_secreta123"
 @app.route("/" , methods=["GET","POST"])
 def login():
  
- form =loginform()
- return render_template('form.html' , form=form )
+ form =LoginForm()
+ return render_template("index.html" , form=form )
      
 @app.route("/login", methods=["POST","GET"])
 def route():
